@@ -1,0 +1,7 @@
+function findMax(){
+    let arr = [10,100,200,300,50,600];
+    
+    let maxValue = Math.max(...arr);
+    console.log("largest number is " + maxValue);
+}
+findMax()
